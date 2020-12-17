@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body {
+        background: black;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: orange;
+        width: 100%;
+      }
+      .topnav a {
+        float: right;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 45px 25px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: Gothamblack;
+      }
+      .midnav {
+        background-color: black;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0 0 10px;
+      }
+      .midnav a {
+        color: orange;
+        text-align: center;
+        font-size: 30px;
+        font-family: Gothamblack;
+        padding: 45px 25px;
+        text-decoration: none;
+      }
+      .topnav a:hover {
+        background-color: black;
+        color: orange;
+      }
+      .midnav a:hover {
+        background-color: orange;
+        color: black;
+      }
+      .footer {
+        padding: 10px;
+        text-align: center;
+        background: black;
+        margin-top: 150px;
+      }
+      .footer h2 {
+        font-family: Gothamblack;
+        color: white;
+        font-size: 15px;
+      }
+      .container {
+        display: flex;
+        padding: 50px;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-item: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='topnav'>
+      <a href='contact.html'>CONTACT</a>
+      <a href='works.html'>WORKS</a>
+      <a href='about.html'>ABOUT</a>
+      <a href='index.html'>HOME</a>
+      <a href='index.html' style='float:left'>PORTFOLIO.</a>
+    </div>
+
+    <div class='midnav'>
+      <a href='programming.html'>PROGRAMMING</a>
+      <a href='design.html'>DESIGN</a>
+      <a href='photo.html'>PHOTO</a>
+    </div>
+
+    <div class="container">
+      <div> <img src='.img/pr02.png'> <img src='.img/pr01.png'> <img src='.img/pr03.png'></div>
+      <div>
+      <img src='.img/de01.png'> <img src='.img/de02.png'> <img src='.img/de03.png'> </div>
+      <div> <img src='.img/pt01.png'> <img src='.img/pt02.png'> <img src='.img/pt03.png'> </div>
+    </div>
+
+    <div class='footer'>
+     <h2>Copyright © Kim_HyunTae All Rights Reserved</h2>
+    </div>
+  </body>
+</html>
